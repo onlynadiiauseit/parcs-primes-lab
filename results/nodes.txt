@@ -1,0 +1,29 @@
+NAME: master
+ZONE: europe-north1-b
+MACHINE_TYPE: e2-standard-2
+NETWORK_IP: 10.42.0.10
+STATUS: RUNNING
+
+NAME: worker-1
+ZONE: europe-north1-b
+MACHINE_TYPE: e2-standard-2
+NETWORK_IP: 10.42.0.11
+STATUS: RUNNING
+
+NAME: worker-2
+ZONE: europe-north1-b
+MACHINE_TYPE: e2-standard-2
+NETWORK_IP: 10.42.0.12
+STATUS: RUNNING
+
+NAME: worker-3
+ZONE: europe-north1-b
+MACHINE_TYPE: e2-standard-2
+NETWORK_IP: 10.42.0.13
+STATUS: RUNNING
+
+NAME: worker-4
+ZONE: europe-north1-b
+MACHINE_TYPE: e2-standard-2
+NETWORK_IP: 10.42.0.14
+STATUS: RUNNING

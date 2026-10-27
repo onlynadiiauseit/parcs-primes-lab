@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430">
+<rect width="800" height="430" fill="white"/>
+<g font-family="sans-serif" font-size="15" fill="#172b4d">
+<text x="90" y="30">PARCS: час виконання (медіана), с</text>
+<path d="M90 330.0 H760" stroke="#ddd"/>
+<text x="10" y="335.0">0.000</text>
+<path d="M90 278.0 H760" stroke="#ddd"/>
+<text x="10" y="283.0">1.713</text>
+<path d="M90 226.0 H760" stroke="#ddd"/>
+<text x="10" y="231.0">3.425</text>
+<path d="M90 174.0 H760" stroke="#ddd"/>
+<text x="10" y="179.0">5.138</text>
+<path d="M90 122.0 H760" stroke="#ddd"/>
+<text x="10" y="127.0">6.850</text>
+<path d="M90 70.0 H760" stroke="#ddd"/>
+<text x="10" y="75.0">8.563</text>
+<circle cx="120" cy="103.91304347826085" r="5" fill="#2563eb"/>
+<text x="120" y="91.91304347826085" text-anchor="middle">7.446</text>
+<text x="120" y="365" text-anchor="middle">Послідовно</text>
+<circle cx="270" cy="111.70641709388721" r="5" fill="#2563eb"/>
+<text x="270" y="99.70641709388721" text-anchor="middle">7.189</text>
+<text x="270" y="365" text-anchor="middle">1</text>
+<circle cx="420" cy="219.45243476848935" r="5" fill="#2563eb"/>
+<text x="420" y="207.45243476848935" text-anchor="middle">3.641</text>
+<text x="420" y="365" text-anchor="middle">2</text>
+<circle cx="570" cy="255.80553020749477" r="5" fill="#2563eb"/>
+<text x="570" y="243.80553020749477" text-anchor="middle">2.444</text>
+<text x="570" y="365" text-anchor="middle">3</text>
+<circle cx="720" cy="274.5113075590922" r="5" fill="#2563eb"/>
+<text x="720" y="262.5113075590922" text-anchor="middle">1.827</text>
+<text x="720" y="365" text-anchor="middle">4</text>
+<polyline points="270,111.70641709388721 420,219.45243476848935 570,255.80553020749477 720,274.5113075590922" fill="none" stroke="#2563eb" stroke-width="2"/>
+<text x="310" y="410">Кількість воркерів</text></g></svg>

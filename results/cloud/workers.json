@@ -1,0 +1,42 @@
+[
+  {
+    "enabled": true,
+    "id": 0,
+    "info": {
+      "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+      "ram": "7.8 GiB"
+    },
+    "ip": "10.42.0.11",
+    "port": 8080
+  },
+  {
+    "enabled": true,
+    "id": 1,
+    "info": {
+      "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+      "ram": "7.8 GiB"
+    },
+    "ip": "10.42.0.12",
+    "port": 8080
+  },
+  {
+    "enabled": true,
+    "id": 2,
+    "info": {
+      "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+      "ram": "7.8 GiB"
+    },
+    "ip": "10.42.0.13",
+    "port": 8080
+  },
+  {
+    "enabled": true,
+    "id": 3,
+    "info": {
+      "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+      "ram": "7.8 GiB"
+    },
+    "ip": "10.42.0.14",
+    "port": 8080
+  }
+]

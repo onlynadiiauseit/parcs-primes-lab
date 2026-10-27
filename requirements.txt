@@ -1,0 +1,4 @@
+Pyro4==4.82
+serpent==1.41
+Flask==3.1.2
+requests==2.32.5

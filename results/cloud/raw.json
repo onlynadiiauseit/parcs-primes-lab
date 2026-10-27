@@ -1,0 +1,665 @@
+[
+  {
+    "repeat": 1,
+    "workers": 3,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 3,
+      "block_size": 1000000
+    },
+    "seconds": 2.469048887999975,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 2050943,
+          "sum": 33056813899482,
+          "first": 2,
+          "last": 33333331
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 33333334
+      },
+      {
+        "result": {
+          "count": 1882371,
+          "sum": 93920677841861,
+          "first": 33333347,
+          "last": 66666667
+        },
+        "hostname": "worker-2",
+        "lo": 33333335,
+        "hi": 66666667
+      },
+      {
+        "result": {
+          "count": 1828141,
+          "sum": 152232298645933,
+          "first": 66666683,
+          "last": 99999989
+        },
+        "hostname": "worker-3",
+        "lo": 66666668,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 1,
+    "workers": 1,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 1,
+      "block_size": 1000000
+    },
+    "seconds": 7.248083793999967,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 1,
+    "workers": 2,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 2,
+      "block_size": 1000000
+    },
+    "seconds": 3.6432436180000423,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 3001134,
+          "sum": 72619548630277,
+          "first": 2,
+          "last": 49999991
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 2760321,
+          "sum": 206590241756999,
+          "first": 50000017,
+          "last": 99999989
+        },
+        "hostname": "worker-2",
+        "lo": 50000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 1,
+    "workers": 4,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 4,
+      "block_size": 1000000
+    },
+    "seconds": 1.8462130149999894,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 1565927,
+          "sum": 18915756212154,
+          "first": 2,
+          "last": 24999983
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 25000000
+      },
+      {
+        "result": {
+          "count": 1435207,
+          "sum": 53703792418123,
+          "first": 25000009,
+          "last": 49999991
+        },
+        "hostname": "worker-2",
+        "lo": 25000001,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 1393170,
+          "sum": 87009115694790,
+          "first": 50000017,
+          "last": 74999959
+        },
+        "hostname": "worker-3",
+        "lo": 50000001,
+        "hi": 75000000
+      },
+      {
+        "result": {
+          "count": 1367151,
+          "sum": 119581126062209,
+          "first": 75000007,
+          "last": 99999989
+        },
+        "hostname": "worker-4",
+        "lo": 75000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 1,
+    "workers": 0,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 0,
+      "block_size": 1000000
+    },
+    "seconds": 7.51386984699991,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "master",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "workers": 4,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 4,
+      "block_size": 1000000
+    },
+    "seconds": 1.8394060990000298,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 1565927,
+          "sum": 18915756212154,
+          "first": 2,
+          "last": 24999983
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 25000000
+      },
+      {
+        "result": {
+          "count": 1435207,
+          "sum": 53703792418123,
+          "first": 25000009,
+          "last": 49999991
+        },
+        "hostname": "worker-2",
+        "lo": 25000001,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 1393170,
+          "sum": 87009115694790,
+          "first": 50000017,
+          "last": 74999959
+        },
+        "hostname": "worker-3",
+        "lo": 50000001,
+        "hi": 75000000
+      },
+      {
+        "result": {
+          "count": 1367151,
+          "sum": 119581126062209,
+          "first": 75000007,
+          "last": 99999989
+        },
+        "hostname": "worker-4",
+        "lo": 75000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "workers": 2,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 2,
+      "block_size": 1000000
+    },
+    "seconds": 3.6415479099999857,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 3001134,
+          "sum": 72619548630277,
+          "first": 2,
+          "last": 49999991
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 2760321,
+          "sum": 206590241756999,
+          "first": 50000017,
+          "last": 99999989
+        },
+        "hostname": "worker-2",
+        "lo": 50000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "workers": 3,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 3,
+      "block_size": 1000000
+    },
+    "seconds": 2.448430787999996,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 2050943,
+          "sum": 33056813899482,
+          "first": 2,
+          "last": 33333331
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 33333334
+      },
+      {
+        "result": {
+          "count": 1882371,
+          "sum": 93920677841861,
+          "first": 33333347,
+          "last": 66666667
+        },
+        "hostname": "worker-2",
+        "lo": 33333335,
+        "hi": 66666667
+      },
+      {
+        "result": {
+          "count": 1828141,
+          "sum": 152232298645933,
+          "first": 66666683,
+          "last": 99999989
+        },
+        "hostname": "worker-3",
+        "lo": 66666668,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "workers": 0,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 0,
+      "block_size": 1000000
+    },
+    "seconds": 7.51822000300001,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "master",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 2,
+    "workers": 1,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 1,
+      "block_size": 1000000
+    },
+    "seconds": 7.317383165000024,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "workers": 0,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 0,
+      "block_size": 1000000
+    },
+    "seconds": 7.459106403000078,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "master",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "workers": 2,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 2,
+      "block_size": 1000000
+    },
+    "seconds": 3.6697397599999704,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 3001134,
+          "sum": 72619548630277,
+          "first": 2,
+          "last": 49999991
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 2760321,
+          "sum": 206590241756999,
+          "first": 50000017,
+          "last": 99999989
+        },
+        "hostname": "worker-2",
+        "lo": 50000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "workers": 3,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 3,
+      "block_size": 1000000
+    },
+    "seconds": 2.5338402749999887,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 2050943,
+          "sum": 33056813899482,
+          "first": 2,
+          "last": 33333331
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 33333334
+      },
+      {
+        "result": {
+          "count": 1882371,
+          "sum": 93920677841861,
+          "first": 33333347,
+          "last": 66666667
+        },
+        "hostname": "worker-2",
+        "lo": 33333335,
+        "hi": 66666667
+      },
+      {
+        "result": {
+          "count": 1828141,
+          "sum": 152232298645933,
+          "first": 66666683,
+          "last": 99999989
+        },
+        "hostname": "worker-3",
+        "lo": 66666668,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "workers": 4,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 4,
+      "block_size": 1000000
+    },
+    "seconds": 1.8674186109999482,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 1565927,
+          "sum": 18915756212154,
+          "first": 2,
+          "last": 24999983
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 25000000
+      },
+      {
+        "result": {
+          "count": 1435207,
+          "sum": 53703792418123,
+          "first": 25000009,
+          "last": 49999991
+        },
+        "hostname": "worker-2",
+        "lo": 25000001,
+        "hi": 50000000
+      },
+      {
+        "result": {
+          "count": 1393170,
+          "sum": 87009115694790,
+          "first": 50000017,
+          "last": 74999959
+        },
+        "hostname": "worker-3",
+        "lo": 50000001,
+        "hi": 75000000
+      },
+      {
+        "result": {
+          "count": 1367151,
+          "sum": 119581126062209,
+          "first": 75000007,
+          "last": 99999989
+        },
+        "hostname": "worker-4",
+        "lo": 75000001,
+        "hi": 100000000
+      }
+    ]
+  },
+  {
+    "repeat": 3,
+    "workers": 1,
+    "config": {
+      "lo": 2,
+      "hi": 100000000,
+      "workers": 1,
+      "block_size": 1000000
+    },
+    "seconds": 7.303936012000008,
+    "result": {
+      "count": 5761455,
+      "sum": 279209790387276,
+      "first": 2,
+      "last": 99999989
+    },
+    "master": "master",
+    "partitions": [
+      {
+        "result": {
+          "count": 5761455,
+          "sum": 279209790387276,
+          "first": 2,
+          "last": 99999989
+        },
+        "hostname": "worker-1",
+        "lo": 2,
+        "hi": 100000000
+      }
+    ]
+  }
+]

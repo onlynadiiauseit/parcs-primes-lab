@@ -1,0 +1,122 @@
+{
+  "config": {
+    "lo": 0,
+    "hi": 100,
+    "workers": 4,
+    "collect": true
+  },
+  "seconds": 0.010219712999969488,
+  "result": {
+    "count": 25,
+    "sum": 1060,
+    "first": 2,
+    "last": 97,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ]
+  },
+  "master": "master",
+  "partitions": [
+    {
+      "result": {
+        "count": 9,
+        "sum": 100,
+        "first": 2,
+        "last": 23,
+        "primes": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23
+        ]
+      },
+      "hostname": "worker-1",
+      "lo": 0,
+      "hi": 24
+    },
+    {
+      "result": {
+        "count": 6,
+        "sum": 228,
+        "first": 29,
+        "last": 47,
+        "primes": [
+          29,
+          31,
+          37,
+          41,
+          43,
+          47
+        ]
+      },
+      "hostname": "worker-2",
+      "lo": 25,
+      "hi": 49
+    },
+    {
+      "result": {
+        "count": 6,
+        "sum": 384,
+        "first": 53,
+        "last": 73,
+        "primes": [
+          53,
+          59,
+          61,
+          67,
+          71,
+          73
+        ]
+      },
+      "hostname": "worker-3",
+      "lo": 50,
+      "hi": 74
+    },
+    {
+      "result": {
+        "count": 4,
+        "sum": 348,
+        "first": 79,
+        "last": 97,
+        "primes": [
+          79,
+          83,
+          89,
+          97
+        ]
+      },
+      "hostname": "worker-4",
+      "lo": 75,
+      "hi": 100
+    }
+  ]
+}
